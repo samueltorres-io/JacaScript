@@ -1,0 +1,39 @@
+{
+  "name": "jacascript",
+  "version": "1.0.0",
+  "description": "🍈 A Brazilian meme language that transpiles JacaScript into JavaScript",
+  "main": "src/transpiler.js",
+  "bin": {
+    "jaca": "./bin/jaca.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node bin/jaca.js examples/hello.jaca -o dist/hello.js",
+    "start": "node bin/jaca.js examples/hello.jaca",
+    "test": "node bin/jaca.js examples/hello.jaca -o dist/hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samueltorres-io/JacaScript.git"
+  },
+  "keywords": [
+    "jaca",
+    "javascript",
+    "transpiler",
+    "meme",
+    "language"
+  ],
+  "author": "samueltorres-io",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "bugs": {
+    "url": "https://github.com/samueltorres-io/JacaScript/issues"
+  },
+  "homepage": "https://github.com/samueltorres-io/JacaScript#readme"
+}
