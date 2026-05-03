@@ -1,0 +1,11 @@
+madura fruta = "jaca";
+
+jaca comer(nome) {
+  se (nome === "jaca") {
+    cai "essa é a fruta oficial do projeto";
+  } senão {
+    cai "faltou jaca";
+  }
+}
+
+console.log(comer(fruta));
